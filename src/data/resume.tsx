@@ -13,16 +13,15 @@ import { JSX } from "react/jsx-runtime";
 
 export const resume: SiteConfig = {
     name: "Keisha Gwen Paraiso",
-    role: "Full-Stack Developer",
     location: "Valenzuela City, Metro Manila",
     email: "keishaparaiso@gmail.com",
 
-    typewriterWords: ["interfaces.", "experiences.", "solutions."],
+    typewriterWords: ["systems.", "user-friendly apps.", "solutions."],
 
     bio: [
-        "I specialise in creating unique and beautiful looking", // Note: Typewriter effect follows this line
-        "From bakery menus to real-time collaboration platforms, my philosophy remains the same: make it accessible, performant, and delight the user.",
-        "I'm committed to continuous learning and improvement and while that may at times manifest as my well known affinity for over-engineered solutions, I believe that's the spark that makes a product particularly enticing for any users :)"
+        "I build clean and user-friendly", // Note: Typewriter effect follows this line
+        "As an IT student, I focus on developing practical systems such as WinForms applications and web-based projects using PHP and MySQL.",
+        "I enjoy designing interfaces that are simple, functional, and visually appealing, while continuously improving my skills in system analysis and software development. :)"
     ],
 
     contact: {
@@ -43,7 +42,7 @@ export const resume: SiteConfig = {
     },
 
     skills: [
-        "Python", "Java", "HTML", "CSS", "JavaScript","C#", "PHP",
+        "Python", "Java", "HTML", "CSS", "JavaScript", "C#", "PHP",
         "MySQL", "SQL Server", "Git", "UI/UX", "ASP.NET"
     ],
 
@@ -56,7 +55,7 @@ export const resume: SiteConfig = {
         },
         {
             label: "Performance First",
-            description: "I optimise for speed and efficiency.",
+            description: "I optimize for speed and efficiency.",
             icon: Zap,
             color: "text-amber-400"
         },
@@ -72,7 +71,7 @@ export const resume: SiteConfig = {
         {
             type: "work",
             company: "Aqua SmartGuard",
-            logo: "/experience/aqua.jpg",
+            logo: "/experience/aqua.webp",
             icon: "ASG",
             containerClass: "bg-pink-500/10 border-pink-500/20",
             textClass: "text-pink-400",
@@ -87,7 +86,7 @@ export const resume: SiteConfig = {
         {
             type: "work",
             company: "Upwork",
-            logo: "/experience/upwork.png",
+            logo: "/experience/upwork.webp",
             icon: "UW",
             containerClass: "bg-pink-500/10 border-pink-500/20",
             textClass: "text-pink-400",
@@ -101,14 +100,14 @@ export const resume: SiteConfig = {
         {
             type: "education",
             company: "Pamantasan ng Lungsod ng Valenzuela",
-            logo: "/experience/PamantasanNgLungsodNgValenzuelaLogo.png",
+            logo: "/experience/PamantasanNgLungsodNgValenzuelaLogo.webp",
             icon: "PLV",
             containerClass: "bg-red-500/10 border-red-500/20",
             textClass: "text-red-400",
             title: "BS Information Technology",
             period: "August 2023 - Present",
             highlights: [
-                "Focused on System Anlaysis and Software Development.",
+                "Focused on System Analysis and Software Development.",
                 "Developed multiple academic projects including a WinForms system and PHP-based review system.",
                 "Experienced in C#, PHP, MySQL, and basic UI/UX design.",
             ],
@@ -124,14 +123,14 @@ export const resume: SiteConfig = {
             techStack: ["JavaScript", "WebRTC", "WebSocket"],
             images: ["/dropsilk/SSIV2.webp", "/dropsilk/ds1.png"],
             description: "DropSilk is a peer-to-peer file sharing application that enables users to transfer files directly between devices without relying on cloud storage. It prioritizes privacy and speed by establishing a secure, direct connection between users.",
-            scope: "Full-stack Development",
+            scope: "Frontend & Systems Architecture",
             responsibilities: [
                 "Developing the front-end using vanilla JavaScript, HTML, and CSS.",
                 "Implementing peer-to-peer file transfer and screen sharing functionality using WebRTC.",
                 "Setting up a WebSocket signaling server to facilitate WebRTC connections.",
             ],
             languages: ["JavaScript", "HTML", "CSS"],
-            repoUrl: "https://github.com/medy17/dropsilk",
+            repoUrl: "https://github.com/xyue23/dropsilk",
             demoUrl: "https://dropsilk.xyz",
         },
         {
@@ -147,7 +146,7 @@ export const resume: SiteConfig = {
                 "Building both a user-friendly interactive menu and CLI mode.",
             ],
             languages: ["Python"],
-            repoUrl: "https://github.com/medy17/clone-reaper-prime",
+            repoUrl: "https://github.com/xyue23/clone-reaper-prime",
         },
         {
             title: "Imgur Archive Viewer",
@@ -156,13 +155,13 @@ export const resume: SiteConfig = {
             techStack: ["Python", "Tkinter", "API"],
             images: ["iav/iav.webp"],
             description: "A modern desktop application for finding and recovering lost or deleted Imgur media from the Internet Archive's Wayback Machine.",
-            scope: "Desktop App",
+            scope: "Desktop Application",
             responsibilities: [
                 "Designing the GUI using Tkinter and sv-ttk.",
                 "Implementing multi-threaded architecture.",
             ],
             languages: ["Python"],
-            repoUrl: "https://github.com/medy17/imgur-archive-viewer",
+            repoUrl: "https://github.com/xyue23/imgur-archive-viewer",
         },
         {
             title: "Bandar Breakdowns",
@@ -171,13 +170,13 @@ export const resume: SiteConfig = {
             techStack: ["HTML", "CSS", "JavaScript"],
             images: ["tbb/tbb.webp"],
             description: "A personal blog and website featuring articles and stories on topics like student life, food, and personal experiences.",
-            scope: "Website Development",
+            scope: "Frontend Development",
             responsibilities: [
                 "Designing and developing the website's front-end.",
                 "Envisioning and designing a brand identity.",
             ],
             languages: ["HTML", "CSS", "JavaScript"],
-            repoUrl: "https://github.com/medy17/BandarBreakdowns",
+            repoUrl: "https://github.com/xyue23/BandarBreakdowns",
             demoUrl: "https://bandar-breakdowns.vercel.app"
         },
         {
@@ -193,7 +192,7 @@ export const resume: SiteConfig = {
                 "Integrating Google Gemini API.",
             ],
             languages: ["JavaScript", "HTML", "CSS"],
-            repoUrl: "https://github.com/medy17/GeminiTranslate"
+            repoUrl: "https://github.com/xyue23/GeminiTranslate"
         },
         {
             title: "Sorting Visualizer",
@@ -202,13 +201,13 @@ export const resume: SiteConfig = {
             techStack: ["Python", "Pygame"],
             images: ["sav/sav.webp"],
             description: "An interactive desktop application that provides a visual and auditory representation of various sorting algorithms.",
-            scope: "Desktop App",
+            scope: "Desktop Application",
             responsibilities: [
                 "Developing core visualization engine using Pygame.",
                 "Implementing classic sorting algorithms.",
             ],
             languages: ["Python"],
-            repoUrl: "https://github.com/medy17/sorting-visualizer"
+            repoUrl: "https://github.com/xyue23/sorting-visualizer"
         },
     ],
 };
