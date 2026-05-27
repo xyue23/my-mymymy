@@ -121,7 +121,7 @@ export const resume: SiteConfig = {
             client: "Capstone Project",
             timeline: "Ongoing",
             techStack: ["JavaScript", "Python", "HTML", "CSS"],
-            images: ["servio\dashboard.webp", "/servio/servio-logo.png"],
+            images: ["servio/dashboard.webp", "/servio/servio-logo.png"],
             description: "Servio is a lightweight, self-hosted web dashboard designed for managing and monitoring Linux systemd services. It allows developers to deploy, configure environment variables, handle process states, and stream live system logs directly on their own infrastructure without central cloud platform dependencies.",
             scope: "Fullstack & System Integration",
             responsibilities: [
@@ -139,7 +139,7 @@ export const resume: SiteConfig = {
             client: "Web Development Project",
             timeline: "5 weeks",
             techStack: ["HTML", "CSS", "PHP", "JavaScript"],
-            images: ["chades/Home.webp", "chades/About.webp", "chades/Menu.webp", "chades/Contact.webp", "chades/Review.webp", "chades/Gallery.webp"],
+            images: ["chades/chades.webp"],
             description: "The CHADES website is a proposed digital platform that allows customers to browse the menu and place orders online, improving convenience and accessibility. It aims to streamline operations and expand the business’s reach beyond its current phone-based ordering system.",
             scope: "Website",
             responsibilities: [
