@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
 
     const article = getIndefiniteArticle(role);
     
-    const metaDescription = `Professional portfolio of ${name}, ${article} ${role}. View my projects, skills, and contact information.`;
+    const metaDescription = `Professional portfolio of ${name}. View my projects, skills, and contact information.`;
 
     return {
         server: {
