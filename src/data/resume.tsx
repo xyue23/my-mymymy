@@ -19,7 +19,7 @@ export const resume: SiteConfig = {
     typewriterWords: ["systems.", "user-friendly apps.", "solutions."],
 
     bio: [
-        "I build clean and user-friendly", // Note: Typewriter effect follows this line
+        "I build clean and user-friendly", // Note: Typewriter effect
         "I am an IT student dedicated to creating intuitive management tools that simplify complex tasks. By prioritizing clear navigation and efficient data handling, I develop platforms that allow users to interact with information seamlessly, turning cumbersome manual processes into streamlined digital experiences.",
         "I enjoy designing interfaces that are simple, functional, and visually appealing, while continuously improving my skills in system analysis and software development. :)"
     ],
