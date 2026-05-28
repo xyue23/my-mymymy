@@ -153,7 +153,7 @@ export function Contact() {
                         variant="outline"
                         className="border-pink-500/30 text-zinc-200 hover:bg-pink-500/10 hover:text-white transition-all duration-300 w-full sm:w-auto"
                     >
-                        <a href="/CV_Keisha_Paraiso.pdf" target="_blank" download>
+                        <a href="/Paraiso - CV.pdf" target="_blank" download>
                             <FileDown className="mr-2 h-4 w-4 text-pink-400" />
                             Download My CV
                         </a>
